@@ -1,3 +1,21 @@
+/* Universal */
+
+.font-segoe{
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nopadding{
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.color-white{
+	color: #f5f5f5;
+}
+.color-black{
+	color: #212121;
+}
+
 /* Detail Style */
 
 .detail-title {
@@ -134,3 +152,15 @@
   }
 }
 /* End of Detail Style */
+
+/* Login Style */
+
+
+.box-kiri, .box-kanan{
+	margin-top: 200px;
+	height: 200px;
+}
+.box-kiri{
+	background-color: #f8ba10;
+	border-radius: 10px;
+}
