@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Universal */
 
 .font-segoe{
@@ -18,8 +18,6 @@
 }
 
 /* Detail Style */
-=======
->>>>>>> 7fe34424ce1b0d656178f980f9a3bcbfee762ee3
 
 /* Detail Style */
 .detail-title {
@@ -157,7 +155,7 @@
 }
 /* End of Detail Style */
 
-<<<<<<< HEAD
+
 /* Login Style */
 
 
@@ -366,7 +364,7 @@ section {
 	background: #f8ba10;
 	cursor:pointer;
 }
-=======
+
 /* Admin Style */
 .admin-page {
   background: rgb(243, 243, 243);
@@ -477,4 +475,3 @@ section {
   border: 1px solid #dee2e6;
 }
 /* End of Admin Style */
->>>>>>> 7fe34424ce1b0d656178f980f9a3bcbfee762ee3
