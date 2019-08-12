@@ -44,11 +44,11 @@
 }
 .detail-content-desc {
   text-align: right;
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 .detail-content-inf {
   padding-left: 64px;
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 .hero-tabs {
   margin-top: 16px;
@@ -70,31 +70,55 @@
   border-color: transparent;
 }
 
-
-.grid-item{
-    width: 350px;
-    margin-bottom: 10px;
+.grid-item {
+  width: 350px;
+  margin-bottom: 10px;
 }
-.grid-item:hover{
-    cursor: pointer;
-}
-
-.grid-item img{
-    width: 350px
+.grid-item:hover {
+  cursor: pointer;
 }
 
-.photo-detail{
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+.grid-item img {
+  width: 350px;
 }
 
-.photo-detail h6{
-    margin: 12px;
-    font-weight: 100;
-    color: white;
+.photo-detail {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
+
+.photo-detail h6 {
+  margin: 12px;
+  font-weight: 100;
+  color: white;
+}
+
+.modal-gambar img{
+  max-width: 450px;
+}
+
+.modal-caption{
+  margin-top: 24px;
+}
+.modal-profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.image-profile-round{
+  max-width: 50px;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.3rem;
+}
+
 @media (max-width: 600px) {
   .detail-content-desc {
     text-align: left;
@@ -103,5 +127,10 @@
     padding-left: 15px;
   }
 }
-
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1024px;
+    margin: 1.75rem auto;
+  }
+}
 /* End of Detail Style */
