@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Ketapang</title>
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="admin-page">
+    <!-- Admin Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo-only.png" width="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <span class="sr-only">(current)</span>Aang</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Admin Navbar -->
+
+    <!-- Admin Sidebar -->
+    <div class="admin-sidebar">
+        <ul class="nav flex-column nav-sidebar">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z" /></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Admin Sidebar -->
+
+    <!-- Admin Wisata Content -->
+    <div class="main-admin">
+        <div class="header-admin">
+                <h4>List Wisata</h2>
+                    <button class="btn btn-primary ml-auto">Add Wisata</button>
+        </div>
+        <div class="content-admin">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wisata-card" style='background-image: url("images/wisata/farmhouse-lembang.jpg")'>
+                        <div class="wisata-card-desc">
+                            <h5>Farmhouse Lembang</h5>
+                            <p>Jl. Raya Lembang No.108, Gudangkahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <nav class="d-flex justify-content-center" aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+        </div>
+    </div>
+    <!-- End of Wisata Content -->
+</body>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/bootstrap/bootstrap.min.js"></script>
+<script src="scripts/jquery.min.js"></script>
+
+</html>
