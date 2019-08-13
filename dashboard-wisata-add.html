@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Ketapang</title>
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="admin-page">
+    <!-- Admin Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo-only.png" width="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaradmin"
+            aria-controls="navbaradmin" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-admin" id="navbaradmin">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <span class="sr-only">(current)</span>Wisata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="sr-only"></span>Transaksi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Admin Navbar -->
+
+    <!-- Admin Sidebar -->
+    <div class="admin-sidebar">
+        <ul class="nav flex-column nav-sidebar">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z" /></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Admin Sidebar -->
+
+    <!-- Admin Wisata Content -->
+    <div class="main-admin">
+        <div class="header-admin">
+            <h4>
+                <a href="dashboard-wisata.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z" /></svg>
+                </a>
+                Tambah Wisata
+            </h4>
+        </div>
+        <div class="content-admin content-bg">
+            <div class="container">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputNamaWisata" class="col-sm-2 col-form-label">Nama Wisata</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputNamaWisata"
+                                placeholder="E.g. Farmhouse Lembang">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputAlamatWisata" class="col-sm-2 col-form-label">Alamat</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="inputAlamatWisata" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputJamBuka" class="col-sm-2 col-form-label">Jam Buka</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputJamBuka"
+                                placeholder="E.g. Setiap Hari, 08.00-21.00">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputTanggalDidirikan" class="col-sm-2 col-form-label">Tanggal Didirikan</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputTanggalDidirikan"
+                                placeholder="E.g. Desember 2015">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputNoTelp" class="col-sm-2 col-form-label">No Telepon</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="inputNoTelp" placeholder="E.g. 082239473609">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputAbout" class="col-sm-2 col-form-label">Deskripsi</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="inputAbout" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputNoTelp" class="col-sm-2 col-form-label">Gambar Cover</label>
+                        <div class="col-sm-10">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">Pilih file</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary btn-submit-wisata">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End of Wisata Content -->
+</body>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/bootstrap/bootstrap.min.js"></script>
+<script src="scripts/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="scripts/index.js"></script>
+
+</html>
