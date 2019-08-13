@@ -9,8 +9,40 @@
     <title>Ketapang</title>
 </head>
 
-<body>
-   
+<body style="background-color: #f5f5f5;">
+    <div class="limiter">
+		<div class="container-login">
+			<div class="wrap-login">
+				<div class="login-pic js-tilt" data-tilt>
+				</div>
+				<form>
+				<span class="login-form-title">
+					<img src="images/logo/KetapangLogo-Color.png" width="220px" alt="Logo">
+				</span>
+
+					<div class="input-container">
+						<input id="name" class="input font-segoe" type="text" required placeholder="Nama"/>
+					</div>
+					<div class="input-container">
+						<input id="email" class="input font-segoe" type="email" required placeholder="Email"/>
+					</div>
+					<div class="input-container">
+						<input id="password" class="input font-segoe" type="password" required placeholder="Password"/>
+					</div>
+
+					<div class="container-login-form-btn">
+						<input class="login-form-btn" type="submit" name="submit" id="submit" value="Login" class="btn">
+					</div>
+					<div class="text-center p-t-136">
+						<a class="txt2"  href="<?=base_url('user/register')?>">
+							<font size="3px">Sudah Punya Akun ?</font>
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </body>
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/bootstrap/bootstrap.min.js"></script>

@@ -31,11 +31,36 @@
 						<input class="login-form-btn" type="submit" name="submit" id="submit" value="Login" class="btn">
 					</div>
 					<div class="text-center p-t-136">
-						<a class="txt2"  href="<?=base_url('user/register')?>">
+						<a class="txt2"  href="#" data-toggle="modal" data-target="#myModal">
 							<font size="3px">Belum Punya Akun ?</font>
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>
+					
+											<!-- The Modal -->
+						<div class="modal" id="myModal">
+						  <div class="modal-dialog">
+							<div class="modal-content">
+
+							  <!-- Modal Header -->
+							  <div class="modal-header">
+								<h4 class="modal-title">Modal Heading</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							  </div>
+
+							  <!-- Modal body -->
+							  <div class="modal-body">
+								Modal body..
+							  </div>
+
+							  <!-- Modal footer -->
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							  </div>
+
+							</div>
+						  </div>
+						</div>
 				</form>
 			</div>
 		</div>
