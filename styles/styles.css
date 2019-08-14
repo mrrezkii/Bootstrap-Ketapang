@@ -19,6 +19,10 @@
 /* Detail Style */
 
 /* Detail Style */
+
+.map-detail{
+  height: 400px;
+}
 .detail-title {
   font-size: 4vh;
   background: #f8ba10;
@@ -138,7 +142,7 @@
   padding: 1.3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .detail-content-desc {
     text-align: left;
   }
@@ -399,9 +403,10 @@ input:focus + label {
 
 .main-admin {
   width: 100%;
+  position: relative;
   padding-left: 148px;
   padding-right: 32px;
-  margin-top: 64px;
+  padding-top: 64px;
 }
 
 .main-admin h4 {
@@ -416,10 +421,12 @@ input:focus + label {
 .content-admin {
   width: 100%;
   border-radius: 9px;
+  z-index: 99;
 }
 .content-bg {
   background: white;
   padding: 32px;
+  /* height: 300px; */
 }
 .wisata-card {
   width: 100%;
@@ -461,6 +468,7 @@ input:focus + label {
 .header-admin {
   display: flex;
   padding-bottom: 16px;
+  z-index: 60;
 }
 .header-admin button {
   height: 50px;
@@ -513,6 +521,21 @@ input:focus + label {
   border-color: transparent;
 }
 
+.bg-cover{
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.title-detail-admin{
+  color: white !important;
+}
+.title-detail-admin svg{
+  fill: white !important;
+}
 @media (max-width: 970px) {
   .nav-admin .navbar-nav {
     display: block;
@@ -525,7 +548,7 @@ input:focus + label {
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
-    margin-top: 64px;
+    padding-top: 64px;
   }
 }
 /* End of Admin Style */
