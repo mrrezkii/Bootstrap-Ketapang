@@ -368,7 +368,7 @@ input:focus + label {
 
 /* Admin Style */
 
-.nav-admin .navbar-nav {
+.nav-admin .navbar-nav .nav-main-admin{
   display: none;
 }
 
@@ -537,7 +537,7 @@ input:focus + label {
   fill: white !important;
 }
 @media (max-width: 970px) {
-  .nav-admin .navbar-nav {
+  .nav-admin .navbar-nav .nav-main-admin{
     display: block;
   }
   .admin-sidebar {
