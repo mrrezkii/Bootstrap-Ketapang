@@ -81,16 +81,19 @@
 
  .landing{
   position: relative;
-  margin-bottom: 64px;
+  margin-bottom: 128px;
  }
 
- .landing h1{
+ .landing h2{
   font-weight: bold;
   color: #f8ba10;
   letter-spacing: 2px;
-  margin-bottom: 24px;
+  margin-bottom: 64px;
  }
 
+ .city{
+   text-align: right;
+ }
  .news-card{
    width: 100%;
    position: relative;
@@ -121,6 +124,80 @@
   color: white;
   font-weight: bold;
 }
+.features{
+  margin-top: 128px;
+  text-align: center;
+  position: relative;
+}
+
+.features-slanted{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -4;
+    bottom: -20;
+    transform-origin: bottom;
+    transform: skewY(-5deg);
+    background: #e7e7e74b
+}
+
+.features img{
+  margin-bottom: 16px;
+  border-radius: 50%;
+}
+.features h3{
+  color: #f8ba10
+}
+.features p{
+  margin-top: 16px;
+  text-align: center;
+}
+
+.item{
+  height: 400px;
+  background: #f8ba10;
+}
+
+.plans-card{
+  box-shadow: 0px 4px 20px rgba(74, 74, 74, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 16px;
+  height: 500px;
+}
+
+.plans-header{
+  width: 100%;
+  border-radius: 9px;
+  height: 200px;
+  background: #4F4F4F;
+}
+
+.plans-header p{
+  color: white;
+}
+.plans-header h2{
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-left: 8px;
+  letter-spacing: 0.1px;
+  color: #f8ba10;
+}
+.plans-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.plans-content button{
+  width: 100%;
+  position: absolute;
+  margin  : 10px;
+  bottom: 0;
+}
+
+
  .footer{
    background: white;
    margin-top: 128px;
