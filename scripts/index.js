@@ -40,7 +40,7 @@ axios.get(newsUrl).then(resp => {
   for (let i = 0; i < 6; i++) {
     $("#newsContainer").append(`
     <div class="col-md-4 col-sm-6 col-xs-12">
-    <a href="${resp.data.articles[i].url}">
+    <a href="${resp.data.articles[i].url}" target="_blank">
     <div class="news-card" style='background-image:url("${
       resp.data.articles[i].urlToImage
     }")'>
