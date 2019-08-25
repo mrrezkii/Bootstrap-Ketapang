@@ -33,26 +33,25 @@ function geoLocation(geocoder, mapResults) {
 }
 
 // Owl Carousel
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:18,
-  items:2,
-  center:true,
-  responsive:{
-      0:{
-          items:1,
-          center:false
-      },
-      600:{
-          center:false,
-          items:2
-      },
-      1000:{
-          items:2
-      }
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 18,
+  items: 2,
+  center: true,
+  responsive: {
+    0: {
+      items: 1,
+      center: false
+    },
+    600: {
+      center: false,
+      items: 2
+    },
+    1000: {
+      items: 2
+    }
   }
-})
-
+});
 
 // Fetch News API
 
@@ -76,4 +75,3 @@ axios.get(newsUrl).then(resp => {
     `);
   }
 });
-
