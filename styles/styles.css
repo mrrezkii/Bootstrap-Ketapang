@@ -194,6 +194,31 @@
     border-right: none;
   }
 }
+
+/* Transaksi Detail */
+.transaksi-detail {
+  margin-top: 64px;
+}
+.transaksi-detail h2 {
+  font-weight: bold;
+  color: #f8ba10;
+  letter-spacing: 2px;
+  margin-bottom: 64px;
+}
+.transaksi-detail h6 {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.transaksi-detail h4 {
+  font-weight: 500;
+  margin-top: 16px;
+}
+.payment-method {
+  border: 0.6px solid #e9e9e9;
+  border-radius: 8px;
+  padding: 16px;
+}
+/* End of Transaksi Detail */
 .city {
   text-align: right;
 }
