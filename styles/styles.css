@@ -286,7 +286,7 @@
 }
 
 .item {
-  height: 400px;
+  height: 200px;
   background: #f8ba10;
 }
 
@@ -875,3 +875,34 @@ input:focus + label {
   }
 }
 /* End of Admin Style */
+
+/* Booking Section */
+
+.booking-section {
+  width: 100%;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid #ebebeb;
+  padding: 16px;
+}
+.booking-section h4 {
+  font-weight: bold;
+}
+.detail-content-pkt {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.map-pkt {
+  height: 400px;
+  margin-bottom: 128px;
+}
+
+.sticky-book .sticky-top {
+  top: 68px;
+}
+.img-pkt {
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+/* End of Booking Section */
